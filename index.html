@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio website of Shane Lowelle R. Rafol, a Computer Science student, creative designer, and aspiring web developer.">
+  <title>Shane Rafol | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-page">
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html" aria-label="Shane home">Shane</a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" aria-label="Primary navigation">
+          <a class="active" href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <div class="nav-dropdown">
+        <button id="dropdownBtn" class="dropdown-btn" type="button" aria-haspopup="true" aria-expanded="false">
+          Work <span id="dropdownArrow" aria-hidden="true">▼</span>
+        </button>
+        <div id="dropdownMenu" class="dropdown-menu">
+          <a href="business-owner.html">Business Owner</a>
+          <a href="tiktok-affiliate.html">TikTok Affiliate</a>
+          <a href="web-development.html">Web Development</a>
+          <a href="graphic-design.html">Graphic Design</a>
+        </div>
+      </div>
+          <a href="achievements.html">Achievements</a>
+          <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div class="hero-copy">
+        <p class="hero-kicker">Creative student • designer • developer</p>
+        <h1>SHANE<br>LOWELLE <span>R.</span><br><span>RAFOL</span></h1>
+        <p class="hero-intro">
+          I am a Computer Science student who loves combining creativity and technology.
+          I enjoy building visually appealing digital experiences, designing graphics,
+          exploring web development, and turning ideas into purposeful projects.
+        </p>
+
+        <div class="actions">
+          <a class="btn btn-primary" href="work.html">View My Work ✦</a>
+          <a class="btn btn-outline" href="contact.html">Contact Me</a>
+        </div>
+
+        <div class="code-strip">
+          <span>const</span> shane = { <b>role</b>: "CS Student", <b>passion</b>: "Design + Tech" };
+        </div>
+      </div>
+
+      <div class="hero-portrait">
+        <div class="neon-orbit orbit-one"></div>
+        <div class="neon-orbit orbit-two"></div>
+        <div class="portrait-shell">
+          <img src="images/profile.jpg" alt="Portrait used in Shane's portfolio reference">
+        </div>
+        <span class="float-tag tag-ui">✦ UI Design</span>
+        <span class="float-tag tag-dev">&lt;/&gt; Web Dev</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© 2026 Shane Lowelle R. Rafol · Designed with creativity + code.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
